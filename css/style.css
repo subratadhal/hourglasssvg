@@ -1,0 +1,21 @@
+
+#svg-div{ max-width: 800px; padding: 10px 0; overflow: hidden; margin: 0 auto; 
+             -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                     border-radius: 5px;
+                     background-color: #fff;
+}
+.github-link{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+.github-link p{
+    padding: 0px 0 25px;
+    font:16px normal Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+}
+.github-link img{
+    padding: 25px 0 0;
+}

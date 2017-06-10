@@ -1,0 +1,128 @@
+.svg-container{
+width:100%;
+height:500px;
+text-align:center;
+}
+.content-svg{
+	background: rgba(255,255,255,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(227,227,227,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=1 );
+}
+@keyframes height-change{
+	0% {
+		height:1px; 
+		y:206;
+	}
+	100% {
+		height:46px; 
+		y:160;
+	}
+}
+#rect{
+	x:118; 
+	y:160;
+	width:76px; 
+	height:46px; 
+	stroke:1; 
+	stroke:#fff;
+	
+	animation-name: height-change;
+	animation-duration: 7s;
+	animation-iteration-count: 1;
+	/**/
+}
+
+.hbody{
+	fill:#222;
+	stroke:0;
+	stroke-width:0;
+}
+.sand{
+	fill:#FFF200;
+	stroke:0;
+	stroke-width:0;
+}
+.sand-drop{
+	fill:#EF4136;
+	stroke:0;
+	stroke-width:0;
+}
+
+
+
+.drop3,
+.drop1{
+  opacity:.5;
+  stroke:#FFF200;
+  stroke-width:1;
+  stroke-dasharray: 5;
+}
+.dr1-anim{
+	  animation: dash2 4s linear;
+}
+@keyframes dash2 {
+  to {
+    stroke-dashoffset: 150;
+  }
+}
+
+.drop2{
+  opacity:.5;
+  stroke:#FFF200;
+  stroke-width:1;
+  stroke-dasharray: 5;
+}
+.dr2-anim{
+	  animation: dash1 5s linear;
+}
+
+@keyframes dash1 {
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+
+.dn{
+	display:none;
+}
+
+
+.hourglass-anim {
+    transform-origin:center;
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 3s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate; 
+    animation-duration: 3s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(180deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(180deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}
+
+
+
+/*
+EF4136 */
