@@ -10,5 +10,5 @@
         </ul>
 <br />
 <br />
-<p> Find the <a href="http://subratadhal.com/svg/hourglasssvg/" target="_blank">demo</a> url on <a href="http://subratadhal.com/" target="_blank">subratadhal.com</a></p>
+<p> Find the <a href="http://subratadhal.com/svg/hourglasssvg/" target="_blank">Live Demo</a> url on <a href="http://subratadhal.com/" target="_blank">subratadhal.com</a></p>
 
